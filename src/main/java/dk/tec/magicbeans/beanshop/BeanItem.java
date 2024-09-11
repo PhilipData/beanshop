@@ -21,8 +21,8 @@ public class BeanItem {
     String description;
     String sideEffects;
     Colors color;
-    @OneToMany
-    List<BeanItem> toDoItemBlockers;
+    //@OneToMany
+    //List<BeanItem> toDoItemBlockers;
 
     public int getId() {
         return id;
